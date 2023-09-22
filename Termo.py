@@ -199,7 +199,7 @@ def main():
                 'truta', 'podar', 'fuçar', 'posar', 'autor', 'cruel', 'quiçá', 'avião', 'retro', 'dores', 'credo',
                 'hinos',
                 'capim', 'tango', 'vocês', 'jurar']
-    base = datetime.datetime(2022, 9, 22)
+    base = datetime.datetime(2022, 9, 21)
     base2 = input("Data: ")
     base3 = datetime.datetime.strptime(base2, "%d/%m/%Y")
     base4 = (base3 - base)
