@@ -140,7 +140,7 @@ while True:
     try:
         dia, mes, ano = validar_data(data_input)
 
-        # Verifica se a data é anterior a 02/01/2022 e exibe um erro se for o caso
+        # Verifica se a data é anterior a 02/01/2022 e exibe um aviso se for o caso
         if (ano < 2022) or (ano == 2022 and mes < 1) or (ano == 2022 and mes == 1 and dia < 2):
             print("\nAtenção: Esta data é anterior ao lançamento oficial do jogo em 02/01/2022);")
             print("Entretato, as hipotéticas respostas dadas ainda seguem o algoritmo original.")
